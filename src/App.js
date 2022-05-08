@@ -1,11 +1,10 @@
-// import './App.css';
+import React from "react";
 
 import { About, Footer, Header, Skills, Testimonials, Work  } from "./containers"
 import { Navbar } from "./components";
-import './App.scss'
+import './App.scss';
 
-function App() {
-  return (
+const App = () => (
     <div className="app">
       <Navbar />
       <Header />
@@ -15,7 +14,7 @@ function App() {
       <Testimonials />
       <Footer />
     </div>
-  );
-}
+  
+);
 
 export default App;
